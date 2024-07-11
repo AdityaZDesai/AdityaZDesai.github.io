@@ -1,0 +1,12 @@
+.Container{
+    background-color: aliceblue;
+    width: 700px;
+    height:720px;
+    padding-top: 20px;
+}
+
+.Div{
+    background-image: url('home_page_container.jpg');
+    width: 100%;
+    height: 870px;
+}

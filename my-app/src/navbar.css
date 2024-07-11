@@ -1,0 +1,18 @@
+
+.Top {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: auto;
+}
+
+.Font {
+    color:rgb(115, 80, 229);
+    font-family:'MedievalSharp', fantasy;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-style:unset;
+    line-height: 1.5;
+    margin: 0 0.5em;
+}
