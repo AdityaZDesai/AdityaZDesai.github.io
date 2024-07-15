@@ -17,7 +17,7 @@ import UpdateBlog from './UpdateBlog.js';
 
 function App() {
   const [message, setMessage] = useState('');
-  const url = "http://3.24.134.28:8000/"
+  const url = "https://3.24.134.28:8000/"
   useEffect(() => {fetch(url).then((res) => res.text())
     .then((data) => setMessage(data))
     .catch((err) => console.log(err));
