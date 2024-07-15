@@ -8,7 +8,7 @@ function Authenticate(){
     const {username, password} = location.state
     const [correct, setCorrect] = useState("false");
     const [loading, setLoading] = useState(true);
-    useEffect(() => {fetch('http://localhost:5000/authenticate', 
+    useEffect(() => {fetch('http://3.24.134.28:8000/authenticate', 
         {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},

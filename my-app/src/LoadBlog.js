@@ -14,7 +14,7 @@ export default function LoadBlog(){
     const [blog, setBlog] = useState({})
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch(`http://localhost:5000/${id}`)
+        fetch(`http://3.24.134.28:8000/${id}`)
         .then(res => res.json())
         .then(data => {setBlog(data); setLoading(false); console.log(data)})
         .catch(err => {console.log(err); setLoading(false);});
