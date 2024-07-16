@@ -12,7 +12,7 @@ export default function VipBlog(){
     const authenticated = location.state || false
     const [message, setMessage] = useState([]);
     const [loading, setLoading] = useState(true);
-    const url = "https://3.24.134.28:8000/blog";
+    const url = "https://3.24.134.28.nip.io/blog";
     useEffect(() => {fetch(url).then((res) => res.json())
     .then((data) => {setMessage((data)); setLoading(false)})
     .catch((err) => {console.log(err); setLoading(false)});

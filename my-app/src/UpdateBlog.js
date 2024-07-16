@@ -6,7 +6,7 @@ export default function UpdateBlog(){
     const {title, body, id} = location.state;
     const [correct, setCorrect] = useState("false");
     const [loading, setLoading] = useState(true);
-    useEffect(() => {fetch('https://3.24.134.28:8000/updateBlog', 
+    useEffect(() => {fetch('https://3.24.134.28.nip.io/updateBlog', 
         {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},

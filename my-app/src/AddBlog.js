@@ -6,7 +6,7 @@ export default function AddBlog(){
     const {title, body} = location.state || {}
     const [correct, setCorrect] = useState("false");
     const [loading, setLoading] = useState(true);
-    useEffect(() => {fetch('http://localhost:5000/addBlog', 
+    useEffect(() => {fetch('https://3.24.134.28.nip.io/addBlog', 
         {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
