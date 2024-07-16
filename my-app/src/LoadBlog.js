@@ -54,7 +54,7 @@ export default function LoadBlog(){
 }
     else{
         return(
-        <div className="Div">
+        <div className="DivBlog">
         <Navi /> 
         <Container className="ContainerBlogs">
         <h1 className="TitleBlog">{blog.title}</h1>
